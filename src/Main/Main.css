@@ -1,0 +1,115 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #121c21;
+    color: white;
+    font-family: sans-serif;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.title img:hover {
+    cursor: pointer;
+}
+
+.container-questions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.answer {
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border: 4px solid transparent;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.answer:hover {
+    background: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+    cursor: pointer;
+}
+
+.counter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container-result {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.button {
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid transparent;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+    cursor: pointer;
+}
