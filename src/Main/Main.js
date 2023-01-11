@@ -31,7 +31,7 @@ let questions = [
     }
 ]
 
-let answers = ['r1', 'r1', 'r1', 'r1', 'r1'];
+let answers = ['r3', 'r1', 'r2', 'r1', 'r3'];
 
 function Main() {
     const [questionNumber, setQuestionNumber] = useState(0);
@@ -48,13 +48,10 @@ function Main() {
         };
 
         if (questionNumber === answers.length - 1) {
-            console.log('cabou');
             setFinished(true);
         };
 
         setQuestionNumber(questionNumber + 1);
-        console.log(points);
-        console.log(questionNumber);
     }
 
     function playAgain() {
